@@ -23,6 +23,20 @@ namespace SalesWebMvC.Controllers
             return View();
         }
 
+        public IActionResult About()
+        {
+            ViewData["Message"] = "Eae mano aki quem fala é o venom extreme";
+
+            return View();
+        }
+
+        public IActionResult Contact()
+        {
+            ViewData["Contact"] = "666666666 1 tapa na oreia";
+
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
